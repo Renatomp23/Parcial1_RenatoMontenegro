@@ -16,8 +16,8 @@ namespace Parcial1.Models
         public string Description { get; set; }
 
         [Required]
-        public string Price { get; set; }
+        public float Price { get; set; }
 
-        public string LastBuy { get; set; }
+        public DateTime LastBuy { get; set; }
     }
 }
